@@ -12,6 +12,8 @@ import { ContentfulService } from './contentful.service';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { AnimationComponent } from './animation/animation.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
    declarations: [
@@ -26,7 +28,8 @@ import { AnimationComponent } from './animation/animation.component';
       BrowserModule,
       AppRoutingModule,
       BrowserAnimationsModule,
-      MaterialModule
+      MaterialModule,
+      ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
    ],
    providers: [
       ContentfulService
