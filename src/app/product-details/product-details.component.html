@@ -1,0 +1,13 @@
+<div *ngIf="product">
+
+  <img class="tile-img" [src]="product.fields.productMedia.fields.file.url">
+
+  <div class="details-container">
+    <h1 class="mat-headline ignore-margins">{{product.fields.productName}}</h1>
+    <h3 class="mat-h3">{{product.fields.slug}} brown fox jumps</h3>
+    <h1>
+      <mat-divider></mat-divider>
+    </h1>
+    <button class="breed" mat-stroked-button color="warn">Alert</button>
+  </div>
+</div>

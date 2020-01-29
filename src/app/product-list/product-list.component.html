@@ -1,0 +1,12 @@
+<div class="container">
+  <mat-grid-list class="mt-6" [cols]="breakpoint" rowHeight="2:2" gutterSize="6" (window:resize)="onResize($event)">
+    <div *ngFor="let product of products">
+      <mat-grid-tile [routerLink]="['/products', product.fields.slug]">
+        <img [src]="product.fields.productMedia.fields.file.url">
+        <mat-grid-tile-footer>
+          <p>{{product.fields.productName}}</p>
+        </mat-grid-tile-footer>
+      </mat-grid-tile>
+    </div>
+  </mat-grid-list>
+</div>

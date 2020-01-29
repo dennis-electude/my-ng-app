@@ -1,0 +1,16 @@
+.theming-white {
+    background-color: white;
+}
+
+.theming-transparent {
+  color: #fff;
+  background: rgba(0,0,0,.38);
+}
+
+.icon-home {
+    padding: 0 14px;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
