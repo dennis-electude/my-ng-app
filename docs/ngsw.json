@@ -1,0 +1,80 @@
+{
+  "configVersion": 1,
+  "timestamp": 1580314441495,
+  "index": "/my-ng-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/my-ng-app/favicon.ico",
+        "/my-ng-app/index.html",
+        "/my-ng-app/main-es2015.b642faeb0373cbb8098c.js",
+        "/my-ng-app/main-es5.b642faeb0373cbb8098c.js",
+        "/my-ng-app/manifest.webmanifest",
+        "/my-ng-app/polyfills-es2015.19aa098ef024439a4e26.js",
+        "/my-ng-app/polyfills-es5.b5cd5ca932095a3b331c.js",
+        "/my-ng-app/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/my-ng-app/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/my-ng-app/styles.7b7f152cf9f7b3a9f813.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/my-ng-app/assets/icons/icon-128x128.png",
+        "/my-ng-app/assets/icons/icon-144x144.png",
+        "/my-ng-app/assets/icons/icon-152x152.png",
+        "/my-ng-app/assets/icons/icon-192x192.png",
+        "/my-ng-app/assets/icons/icon-384x384.png",
+        "/my-ng-app/assets/icons/icon-512x512.png",
+        "/my-ng-app/assets/icons/icon-72x72.png",
+        "/my-ng-app/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/my-ng-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/my-ng-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/my-ng-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/my-ng-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/my-ng-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/my-ng-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/my-ng-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/my-ng-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/my-ng-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/my-ng-app/index.html": "f880951023e4729846578c188e037f944b9563da",
+    "/my-ng-app/main-es2015.b642faeb0373cbb8098c.js": "96909c8c8eeb2b0c25f10f080200cbf4b14fe5d6",
+    "/my-ng-app/main-es5.b642faeb0373cbb8098c.js": "3fe3aeed21b4e684b5458b51b5e555b3b2d45439",
+    "/my-ng-app/manifest.webmanifest": "eaeea8ad6aa17216449b9c7765e66dc3f6f19a78",
+    "/my-ng-app/polyfills-es2015.19aa098ef024439a4e26.js": "e3de051769988f8affb793d90a86f34754466963",
+    "/my-ng-app/polyfills-es5.b5cd5ca932095a3b331c.js": "939bfd38fe60a68bc91bb160b461849bbd260a45",
+    "/my-ng-app/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/my-ng-app/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/my-ng-app/styles.7b7f152cf9f7b3a9f813.css": "a4291dbe50698cdb4234646f00d5227312173793"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
